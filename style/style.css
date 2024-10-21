@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: beige;
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: burlywood;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0c0c0c;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+nav a:hover {
+    color: rgb(247, 242, 242);
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Content Box Styles */
+.content-box {
+    max-width: 600px;
+    background-color:burlywood;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Hide content sections initially */
+.hidden {
+    display: none;
+}
+
+/* Profile Image */
+.profile img {
+    width: 250px;
+    border-radius: 40px;
+    background: #dcdce7;
+    padding: 5px;
+}
+
+/* Intro Section */
+h1 {
+    color:rgb(8, 8, 8);
+}
+
+h2 {
+    color: #000;
+}
+
+p {
+    color: #060606;
+    line-height: 1.6;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #100f0f;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #2bd810;
+    
+}
+
+/* Hire Me Button */
+.btn-hire {
+    background-color: chocolate;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-hire:hover {
+    background-color:rgb(59, 231, 21);
+}
+
